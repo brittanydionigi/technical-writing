@@ -2,4 +2,12 @@ body {
   max-width: 950px;
   font: 300 16px/23px "helvetica neue",arial,sans-serif;
   background: #f8f8f8;
+  margin: 30px auto 30px 250px;
+}
+
+#navigation {
+  position: fixed;
+  top: 100px;
+  left: 0px;
+  width: 200px;
 }
