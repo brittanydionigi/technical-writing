@@ -1,8 +1,19 @@
 body {
   max-width: 950px;
-  font: 300 16px/23px "helvetica neue",arial,sans-serif;
+  font: 300 16px/23px 'Lora', serif;
   background: #f8f8f8;
-  margin: 30px auto 30px 300px;
+  margin: 70px auto 30px 300px;
+}
+
+header h1 {
+  margin-bottom: 0px;
+}
+
+header h6 {
+  font: 400 10px/16px "helvetica neue",arial,sans-serif;
+  font-style: italic;
+  margin: 2px 5px;
+  color: #999;
 }
 
 #navigation {
@@ -10,10 +21,26 @@ body {
   top: 0px;
   left: 0px;
   width: 200px;
-  padding: 30px;
-  background-color: rgb(235, 219, 222);
+  padding: 70px 30px;
+  height: 100%;
+  background-color: rgb(73, 85, 92);
+  color: #f8f8f8;
+}
+
+#navigation h2 {
+  margin: 0px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
 #navigation ol {
   padding-left: 20px;
+  font: 400 14px/18px "helvetica neue",arial,sans-serif;
+  list-style-type: upper-roman;
+  margin: 30px 0px;
+  color: #dfdfdf;
+}
+
+#navigation ol li {
+  margin: 0 0 8px 0;
 }
